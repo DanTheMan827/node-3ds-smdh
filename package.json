@@ -1,0 +1,27 @@
+{
+  "name": "3ds-smdh",
+  "version": "1.0.0",
+  "description": "Reads and writes Nintendo 3DS SMDH files",
+  "main": "index.js",
+  "scripts": {
+    "build-docs": "jsdoc2md --template README.template.md index.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanTheMan827/3ds-smdh.git"
+  },
+  "author": "DanTheMan827",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DanTheMan827/3ds-smdh/issues"
+  },
+  "homepage": "https://github.com/DanTheMan827/3ds-smdh#readme",
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "pngjs": "^3.3.0",
+    "tiled-image-tools": "^1.0.2"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0"
+  }
+}
